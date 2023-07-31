@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+
+
+body{
+    font-family: quicksand;
+    background: linear-gradient(270deg, #429e9d, #c0e1d0); 
+}
+    section{
+    opacity: 80%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.1);
+}
+
+.lets-go{
+    padding-top: 20px ;
+}
+
+#game-title{
+    text-align: center;
+    background: #fff;
+    opacity: 80%;
+    width: 200px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+.game-container{
+    display: grid;
+   
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: 96px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.cell{
+    font-family: 'Handjet', cursive;
+    width: 100px;
+    height: 80px;
+    box-shadow: 0 0 0 1px #000;
+    border: 1px solid #0000;
+    cursor: pointer;
+    line-height: 80px;
+    font-size: 30px;
+}
+
+button {
+    margin-bottom: 20px;
+    height: 35px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-size: 1rem;
+    background: #3EB489;
+    cursor: pointer;
+}
+
