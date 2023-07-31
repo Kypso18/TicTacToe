@@ -64,9 +64,15 @@ button {
     cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 767px) {
+    section {
+        width: 90%;
+        max-width: none;
+    }
+    
     .game-container {
-        max-width: 90%;
-        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        max-width: none;
+        margin: 5% auto;
     }
 }
